@@ -27,7 +27,7 @@ This project implements an efficient similarity search system for lecture conten
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/bariscamli/Course-Search-with-RAG.git
+   git clone https://github.com/bariscamli/Vector-Search-with-FAISS.git
    cd lecture-similarity-search
    ```
 
@@ -94,7 +94,7 @@ Run the main script to execute the full pipeline:
 python main.py
 ```
 
-#### What Happens When You Run main.py
+####  <div>What Happens When You Run <a href="https://github.com/bariscamli/Vector-Search-with-FAISS/blob/main/main.py" title="main.py">main.py</a></div>
 
 1. **Data Loading and Preprocessing**
     - Lectures and queries are loaded from the specified files.
@@ -116,7 +116,7 @@ python main.py
 5. **Performance Visualization**
     - A plot is generated showing the trade-off between recall and QPS.
     - The plot is displayed using Matplotlib.
-![Example](performance.png?raw=true)
+![Example](images/performance.png?raw=true)
 
 6. **Quantization**
     - A custom PQ index (```CustomIndexPQ```) is created.
@@ -125,7 +125,7 @@ python main.py
 7. **Example Search**
     - An example search is performed using the PQ index.
     - Results are logged, showing similar lectures to a given lecture.
-![Example](results.png?raw=true)
+![Example](images/results.png?raw=true)
 
 ## Dependencies
 
@@ -138,4 +138,4 @@ python main.py
     - Embedding model libraries (e.g., ```transformers``` if using Hugging Face models)
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+<div>This project is licensed under the MIT License. See the <a href="https://github.com/bariscamli/Vector-Search-with-FAISS/blob/main/LICENSE" title="LICENSE">LICENSE</a></div> file for details.
