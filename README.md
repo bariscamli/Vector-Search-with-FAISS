@@ -28,7 +28,7 @@ This project implements an efficient similarity search system for lecture conten
 
    ```bash
    git clone https://github.com/bariscamli/Vector-Search-with-FAISS.git
-   cd lecture-similarity-search
+   cd Vector-Search-with-FAISS
    ```
 
 2. **Create a Virtual Environment (Optional but Recommended)**
